@@ -1,5 +1,5 @@
 name: Demo
-on: workflow_dispatch
+on: workflow_dispatch # Workflow simple de GAction. Allows manual triggering of the workflow
 jobs:
   first-job:
     runs-on: ubuntu-latest
